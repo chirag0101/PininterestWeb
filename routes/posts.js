@@ -14,7 +14,7 @@ const postSchema = new Schema({
   },
   likes: {
     type: Array,
-    default: []
+    default: [ ]
   }
 });
 
