@@ -18,6 +18,10 @@ const userSchema = new Schema({
     //   type: Schema.Types.ObjectId,
     //   ref: 'Post'
     // }
+    {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'Post'
+    }
   ],
   dp: {
     type: String
