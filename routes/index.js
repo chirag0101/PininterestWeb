@@ -24,6 +24,7 @@ router.get('/Det',async (req,res,next)=>{
   res.send(user);
 })
 
+//tocreate post
 router.get('/createPost',async (req,res,next)=>{
   var post=await postModel.create({
     postText:"hello bhai",
